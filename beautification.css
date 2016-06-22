@@ -1,14 +1,50 @@
-.redParagraph{
-  color: red;
+body{
+  background-image: url("nav/background.jpg");
+  background-repeat: repeat-y;
+  background-size: 35%;
+  
 }
 
-.greenParagraph {
-  color: green;
+nav{
+  float: left;
+  width: 20%;
+  height: auto;
+  border: 1px dashed red;
+  
+}
+
+#navButtons{
+  display: block;
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  height: 20px;
+  margin: 10px;
+  border: 2px solid black;
+  background: white;
+  border-radius: 10px;
+  box-shadow: black 5px 5px 5px;
+  transition: width 2s, text-align 2s;
+  
+}
+
+#navButtons:hover{
+  width: 300px;
   text-align: right;
+  
 }
 
-#benedict {
-  position: absolute;
-  top: 5%;
-  left: center;
+#home{
+  background-image: url("home/neon.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: 2px solid red;
+  
 }
+
+#me{
+  width: 30%;
+  
+}
+
