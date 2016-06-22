@@ -1,0 +1,14 @@
+.redParagraph{
+  color: red;
+}
+
+.greenParagraph {
+  color: green;
+  text-align: right;
+}
+
+#benedict {
+  position: absolute;
+  top: 5%;
+  left: center;
+}
