@@ -10,7 +10,6 @@ nav{
   float: left;
   width: 20%;
   height: auto;
-  border: 1px dashed red;
   
 }
 
@@ -40,7 +39,6 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
-  border: 2px solid red;
 	background-attachment: fixed;
   
 }
