@@ -13,7 +13,7 @@ nav{
   
 }
 
-#navButtons{
+#homeButton, #cssButton{
   display: block;
   width: 150px;
   padding: 15px;
@@ -25,32 +25,19 @@ nav{
   border-radius: 10px;
   box-shadow: black 5px 5px 5px;
   transition: width 2s, text-align 2s;
-
   
 }
 
-#navButtonsUnderConstruction{
-  display: block;
-  width: 150px;
-  padding: 15px;
-  margin: 10px;
-  border: 2px solid black;
-  background: white;
-  border-radius: 10px;
-  box-shadow: black 5px 5px 5px;
-  transition: width 2s, text-align 2s;
+#homeButton:hover{
+  width: 300px;
+  text-align: right;
+  
 }
 
-#navButtonsUnderConstruction:hover{
+#cssButton:hover{
   width: 300px;
   text-align: right;
   background-image: url("home/underConstruction.jpg")
-  
-}
-
-#navButtons:hover{
-  width: 300px;
-  text-align: right;
   
 }
 
@@ -59,7 +46,7 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
-	background-attachment: fixed;
+  background-attachment: fixed;
   
 }
 
@@ -115,6 +102,25 @@ nav{
   
 }
 
+#graduation{
+  background: rgba(2, 222, 255, 0.3) url("home/GraduationDay.jpg") no-repeat;
+  background-size: 5%;
+  background-position: right;
+  background-origin: padding-box;
+  padding-right: 15%;
+  margin-left: 20%;
+	text-align: left;
+  
+}
+
+#graduation h2{
+  text-align: left;
+  background: rgb(115, 225, 2);
+  color: white;
+  font-size: 1.7em;
+  
+}
+
 #table.kidTable{
 	width: 95%;
 	
@@ -132,6 +138,11 @@ nav{
 
 #kids img:hover{
 	width: 250px;
+	
+}
+
+#kids a:img:hover:after{
+	content: attr(title);
 	
 }
 
