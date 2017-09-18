@@ -1,156 +1,140 @@
-body{
-  background-image: url("nav/background.jpg");
-  background-repeat: repeat-y;
-  background-size: 35%;
-  text-align: center;
-  
+body {
+    background-image: url("nav/background.jpg");
+    background-repeat: repeat-y;
+    background-size: 35%;
+    text-align: center;
 }
 
-nav{
-  float: left;
-  width: 20%;
-  height: auto;
-  
+nav {
+    float: left;
+    width: 20%;
+    height: auto;
 }
 
-#homeButton, #cssButton{
-  display: block;
-  width: 150px;
-  padding: 15px;
-  text-align: center;
-  height: 20px;
-  margin: 10px;
-  border: 2px solid black;
-  background: white;
-  border-radius: 10px;
-  box-shadow: black 5px 5px 5px;
-  transition: width 2s, text-align 2s;
-  
+#homeButton, #cssButton {
+    display: block;
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    height: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px;
+    transition: width 2s, text-align 2s;
 }
 
-#homeButton:hover{
-  width: 300px;
-  text-align: right;
-  
+#homeButton:hover {
+    width: 300px;
+    text-align: right;
 }
 
-#cssButton:hover{
-  width: 300px;
-  text-align: right;
-  background-image: url("home/underConstruction.jpg")
-  
+#cssButton:hover {
+    width: 300px;
+    text-align: right;
+    background-image: url("home/underConstruction.jpg")
 }
 
-#home{
-  background-image: url("home/neon.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50%;
-  background-attachment: fixed;
-  
+#home {
+    background-image: url("home/neon.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-attachment: fixed;
 }
 
-#me{
-  width: 25%;
-  border-radius: 10px;
-  transition: transform 4s, opacity 4s;
-  
+#me {
+    width: 25%;
+    border-radius: 10px;
+    transition: transform 4s, opacity 4s;
 }
 
-#me:hover{
-  transform: rotate(360deg);
-  opacity: 0.2;
-  
+#me:hover {
+    transform: rotate(360deg);
+    opacity: 0.2;
 }
 
-#beginningLife{
-  background: rgba(2, 222, 255, 0.3) url("home/c64.jpg") no-repeat;
-  background-size: 15%;
-  background-position: right;
-  background-origin: padding-box;
-  padding-right: 15%;
-  margin-left: 20%;
-	text-align: left;
-  
+#beginningLife {
+    background: rgba(2, 222, 255, 0.3) url("home/c64.jpg") no-repeat;
+    background-size: 15%;
+    background-position: right;
+    background-origin: padding-box;
+    padding-right: 12%;
+    margin-left: 20%;
+    text-align: left;
 }
 
-#beginningLife h2{
-  text-align: left;
-  background: rgb(115, 225, 2);
-  color: white;
-  font-size: 1.7em;
-  
+#beginningLife h2 {
+    text-align: left;
+    background: rgb(115, 225, 2);
+    color: white;
+    font-size: 1.7em;
 }
 
-#military{
-  background: rgba(247, 245, 8, 0.3) url("home/iraqDeployment.jpg") no-repeat;
-  background-size: 25%;
-  background-origin: padding-box;
-  background-position: left;
-  padding-left: 20%;
-  margin-right: 20%;
-	text-align: left;
-
+#military {
+    background: rgba(247, 245, 8, 0.3) url("home/iraqDeployment.jpg") no-repeat;
+    background-size: 25%;
+    background-origin: padding-box;
+    background-position: left;
+    padding-left: 20%;
+    margin-right: 20%;
+    text-align: left;
 }
 
-#military h2{
-  text-align: right;
-  background:rgb(247, 169, 8);
-	color: white;
-	font-size: 1.7em;
-	margin-right: 0px;
-  
+#military h2 {
+    text-align: right;
+    background: rgb(247, 169, 8);
+    color: white;
+    font-size: 1.7em;
+    margin-right: 0px;
 }
 
-#graduation{
-  background: rgba(2, 222, 255, 0.3) url("home/GraduationDay.jpg") no-repeat;
-  background-size: 5%;
-  background-position: right;
-  background-origin: padding-box;
-  padding-right: 15%;
-  margin-left: 20%;
-	text-align: left;
-  
+#graduation {
+    background: rgba(2, 222, 255, 0.3) url("home/GraduationDay.jpg") no-repeat;
+    background-size: 13%;
+    background-position: right;
+    background-origin: padding-box;
+    padding-right: 10.5%;
+    margin-left: 20%;
+    text-align: left;
 }
 
-#graduation h2{
-  text-align: left;
-  background: rgb(115, 225, 2);
-  color: white;
-  font-size: 1.7em;
-  
+#graduation h2 {
+    text-align: left;
+    background: rgb(115, 225, 2);
+    color: white;
+    font-size: 1.7em;
 }
 
-#table.kidTable{
-	width: 95%;
-	
+#gradBanner img {
+    width: 50%;
+    height: 5%;
 }
 
-#kids img{
-	width: 150px;
-	height: 300px;
-	
-	box-shadow: 5px 5px 5px;
-	border-radius: 10px;
-	transition: width 2s;
-
+#table.kidTable {
+    width: 95%;
 }
 
-#kids img:hover{
-	width: 250px;
-	
+#kids img {
+    width: 150px;
+    height: 300px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    transition: width 2s;
 }
 
-#kids a:img:hover:after{
-	content: attr(title);
-	
+#kids img:hover {
+    width: 250px;
 }
 
-#kids h2{
-	margin-left: 5%;
-	margin-right: 5%;
-	
-	background: rgb(255, 0, 0);
-	color: white;
-	
+#kids img:hover:after {
+    content: attr(title);
+}
+
+#kids h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgb(255, 0, 0);
+    color: white;
 }
