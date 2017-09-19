@@ -107,13 +107,13 @@ nav {
     font-size: 1.7em;
 }
 
-#gradBanner img {
-    width: 50%;
-    height: 5%;
+#gradBanner {
+    margin-left:20%;
 }
 
-#table.kidTable {
-    width: 95%;
+#gradBanner img{
+    width: 50%;
+    height: 5%;
 }
 
 #kids img {
