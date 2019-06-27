@@ -108,12 +108,12 @@ nav {
 }
 
 #gradBanner {
-    margin-left:20%;
+    margin-left:0%;
 }
 
 #gradBanner img{
-    width: 50%;
-    height: 5%;
+    width: 30%;
+    height: 1%;
 }
 
 #kids img {
@@ -137,4 +137,11 @@ nav {
     margin-right: 5%;
     background: rgb(255, 0, 0);
     color: white;
+}
+
+#capstone {
+	margin-right: 20%;
+	margin-left: 20%;
+	border-style: solid 
+	background-color: ;
 }
